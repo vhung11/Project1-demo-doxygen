@@ -1,0 +1,133 @@
+\doxysection{demo.\+c File Reference}
+\hypertarget{demo_8c}{}\label{demo_8c}\index{demo.c@{demo.c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+Include dependency graph for demo.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=256pt]{demo_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{demo_8c_ae1b37c26bb8e5744f5747d6cd6505356}{factorial}} (int n)
+\begin{DoxyCompactList}\small\item\em Tính giai thừa của một số \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{demo_8c_a934b1b0fe6b8d8b9518eb7e7570f26b6}{square\+Root}} (double num)
+\begin{DoxyCompactList}\small\item\em Tính căn bậc hai của một số ~\newline
+ \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{demo_8c_ab8e9d07746365961d3ae8a284a7647d4}{str\+Compare}} (char \texorpdfstring{$\ast$}{*}str1, char \texorpdfstring{$\ast$}{*}str2)
+\begin{DoxyCompactList}\small\item\em So sánh hai chuỗi ký tự \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{demo_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em Hàm chính. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{demo_8c_ae1b37c26bb8e5744f5747d6cd6505356}\label{demo_8c_ae1b37c26bb8e5744f5747d6cd6505356} 
+\index{demo.c@{demo.c}!factorial@{factorial}}
+\index{factorial@{factorial}!demo.c@{demo.c}}
+\doxysubsubsection{\texorpdfstring{factorial()}{factorial()}}
+{\footnotesize\ttfamily int factorial (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Tính giai thừa của một số 
+
+Tính giai thừa của số n là tích các số từ 1 đến n.
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & Số cần tính giai thừa \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Kết quả giai thừa 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=203pt]{demo_8c_ae1b37c26bb8e5744f5747d6cd6505356_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{demo_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{demo_8c_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+\index{demo.c@{demo.c}!main@{main}}
+\index{main@{main}!demo.c@{demo.c}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Hàm chính. 
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=219pt]{demo_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{demo_8c_a934b1b0fe6b8d8b9518eb7e7570f26b6}\label{demo_8c_a934b1b0fe6b8d8b9518eb7e7570f26b6} 
+\index{demo.c@{demo.c}!squareRoot@{squareRoot}}
+\index{squareRoot@{squareRoot}!demo.c@{demo.c}}
+\doxysubsubsection{\texorpdfstring{squareRoot()}{squareRoot()}}
+{\footnotesize\ttfamily double square\+Root (\begin{DoxyParamCaption}\item[{double}]{num }\end{DoxyParamCaption})}
+
+
+
+Tính căn bậc hai của một số ~\newline
+ 
+
+Sử dụng hàm sqrt() trong thư viện math.\+h để tính căn bậc hai.
+
+
+\begin{DoxyParams}{Parameters}
+{\em num} & Số cần tính căn \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Kết quả căn bậc hai 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=219pt]{demo_8c_a934b1b0fe6b8d8b9518eb7e7570f26b6_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{demo_8c_ab8e9d07746365961d3ae8a284a7647d4}\label{demo_8c_ab8e9d07746365961d3ae8a284a7647d4} 
+\index{demo.c@{demo.c}!strCompare@{strCompare}}
+\index{strCompare@{strCompare}!demo.c@{demo.c}}
+\doxysubsubsection{\texorpdfstring{strCompare()}{strCompare()}}
+{\footnotesize\ttfamily int str\+Compare (\begin{DoxyParamCaption}\item[{char \texorpdfstring{$\ast$}{*}}]{str1,  }\item[{char \texorpdfstring{$\ast$}{*}}]{str2 }\end{DoxyParamCaption})}
+
+
+
+So sánh hai chuỗi ký tự 
+
+Sử dụng hàm strcmp() để so sánh hai chuỗi theo mã ASCII.
+
+
+\begin{DoxyParams}{Parameters}
+{\em str1} & Chuỗi thứ nhất \\
+\hline
+{\em str2} & Chuỗi thứ hai \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 nếu bằng nhau, dương nếu str1 lớn hơn, âm nếu str1 nhỏ hơn 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=219pt]{demo_8c_ab8e9d07746365961d3ae8a284a7647d4_icgraph}
+\end{center}
+\end{figure}
